@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run sequential_model_keras.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/sequential_model_keras.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {},
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
