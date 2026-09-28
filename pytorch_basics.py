@@ -66,8 +66,6 @@ for epoch in range(num_epochs):
     if (epoch+1) % 10 == 0:
         print(f'Epoch [{epoch+1}/ {num_epochs}], loss: {loss.item():.4f}')
 
-    print("sabya")
-
 # evaluation
 with torch.no_grad():
     outputs = model(X_test)
